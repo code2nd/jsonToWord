@@ -107,19 +107,25 @@ input:
 
 output:
 
-## 示例文档
+```
+示例文档
 
 v1.0.0
 Base URL: https://localhost:3000/v1
 这是一个示例文档
 
-### 获取歌曲列表
-#### URL:
-​    GET  /song
-#### Parameter:
-​    page: <number> 页码
-​    pageSize: <number> 每页数据的条数
-#### Response:
+获取歌曲列表
+
+URL:
+GET  /song
+
+Parameter:
+
+page: <number> 页码
+pageSize: <number> 每页数据的条数
+
+Response:
+
 {
   "pages": 3,
   "count": 30,
@@ -144,11 +150,14 @@ Base URL: https://localhost:3000/v1
     }
   ]
 }
-#### Response_Description:
-​    song_id: 歌曲id
-​    name: 歌曲名称
-​    url: 歌曲链接
-​    artist: 演唱者
-​    pic: 歌曲封面图片
-​    album_name: 专辑名称
+
+Response_Description:
+
+song_id: 歌曲id
+name: 歌曲名称
+url: 歌曲链接
+artist: 演唱者
+pic: 歌曲封面图片
+album_name: 专辑名称
+```
 
