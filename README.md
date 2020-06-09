@@ -107,4 +107,48 @@ input:
 
 output:
 
-![](./demo.png)
+## 示例文档
+
+v1.0.0
+Base URL: https://localhost:3000/v1
+这是一个示例文档
+
+### 获取歌曲列表
+#### URL:
+​    GET  /song
+#### Parameter:
+​    page: <number> 页码
+​    pageSize: <number> 每页数据的条数
+#### Response:
+{
+  "pages": 3,
+  "count": 30,
+  "list": [
+    {
+      "song_id": 7149583,
+      "name": "告白气球",
+      "url": "http://47.107.229.37:8081/gm/music/336/555949/gaobaiqiqiu.mp3",
+      "artist": "周杰伦",
+      "pic120": "http://img2.kuwo.cn/star/albumcover/120/64/39/3540704654.jpg",
+      "pic": "http://img2.kuwo.cn/star/albumcover/300/64/39/3540704654.jpg",
+      "album_name": "周杰伦的床边故事"
+    },
+    {
+      "song_id": 76323299,
+      "name": "说好不哭 (with 五月天阿信)",
+      "url": "http://47.107.229.37:8081/gm/music/336/10685968/shuohaobuku.mp3",
+      "artist": "周杰伦",
+      "pic120": "http://img1.kuwo.cn/star/albumcover/120/12/37/4156270827.jpg",
+      "pic": "http://img1.kuwo.cn/star/albumcover/300/12/37/4156270827.jpg",
+      "album_name": "说好不哭 (with 五月天阿信)"
+    }
+  ]
+}
+#### Response_Description:
+​    song_id: 歌曲id
+​    name: 歌曲名称
+​    url: 歌曲链接
+​    artist: 演唱者
+​    pic: 歌曲封面图片
+​    album_name: 专辑名称
+
