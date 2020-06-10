@@ -1,6 +1,6 @@
 # jsonToWord
 
-Note: **This project aim to convert JSON file to word file**
+Note: **This project aims to convert JSON file to word file**
 
 Example:
 
